@@ -6,7 +6,7 @@ The entire application is based on the Brazilian election system for specific po
 
 ## TODO
 
-- [x] calculations to define the candidates elected in the elections of the referent year.
+- [x] Calculations to define the candidates elected in the elections of the referent year.
 
 
 ## Authorship
