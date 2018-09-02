@@ -61,7 +61,6 @@ print(">>> Remaining chairs number: ",chairs_left)
 # Distribution of remaining chairs
 M = dict()
 for i in range(chairs_left):
-    #M = {party : elec_votes[party] / (qp + 1) for party, qp in QP.items()}
     for party,qp in QP.items():
         M[party] = (elec_votes[party]/(qp + 1))
     winner_party = max(M, key=M.get)

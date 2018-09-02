@@ -8,6 +8,8 @@ The entire application is based on the Brazilian election system for specific po
 
 - [x] Calculations to define the candidates elected in the elections of the referent year.
 
+## How to Execute
+
 
 ## Authorship
 
