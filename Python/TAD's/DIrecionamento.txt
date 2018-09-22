@@ -1,0 +1,57 @@
+(Do an website with these informations to practice Web Development I)
+
+# [V E T O R]
+
+Acesso:   O(1) 	-> 	Posso acessar facilmente cada index do vetor.
+Busca: 	  O(n) 	-> 	A busca dependerá da qtd de elementos, é necessário iterar por todo 
+ 					o vetor.
+Tamanho:  O(1) 	-> 	O tamanho do vetor é facilmente definido pelo seu último index
+Inserção: O(n) 	-> 	Devido à indexação, é necessário remanejar os elementos sempre que 
+					houver inserção fora das extremidades.
+Remoção:  O(n)	->	Assim como na inserção, será necessário remanejar os elementos sempre
+					que houver remoção fora das extremidades.
+Partição: O(n)	->	Será necessário reagrupar o vetor, isso leva em consideração a 
+					iteração por todo seu comprimento.
+Duplicar: O(n)	->	Leva-se em considerção a cópia através da iteração por todos os
+					elementos do vetor.
+Ordenar:O(nlogn)->	A ordenação de um vetor se dá da melhor forma através do Quick 
+					Sort(...) - Explain later.
+
+# [L I S T A  encadeada]
+
+Acesso:	  O(n)	->	Para acessarmos um elemento precisamos passar por pelomenos todo o 
+					vetor em um pior caso onde o elemento requerido seria o ultimo.
+Busca:    O(n)	->	A busca segue um passo semelhante ao acesso, sendo necessária também
+					uma iteração de nó a nó.
+Tamanho:  O(1)	->	A setinela Fim entrega o tamanho da lista
+
+Inserção: O(1)	->	Tendo em vista que será necessário apenas reapontar os ponteiros 
+					prev e nexte referentes as posições onde o elemento será inserido e que o trabalho será intermediado por um nó auxiliar.
+Remoção:  O(1)	->	A remoção realiza um trabalho similar ao que acontece na inserção,
+					levando em consideração que apenas os ponteiros dos nós que ficam entre o elemento removido serão reapontados entre sí.
+Partição: O(n)	->	Haverá a criação de duas novas sentinelas (Início e Fim) para limitar
+					a nova lista desse modo os ponteiros represetantes do inicio e fim do
+					range selecionado serão reapontados para as determiadas novas sentinelas(Início e Fim) <strong>????????????????????? </strong>
+Duplicar: O(n)	->	Trabalhando com uma lista auxiliar, a lista principal será iterada e
+					os elementos copiados para a lista aux mantendo a ordem.
+Ordenar:O(nlogn)->	A melhor ordenação ainda é através do Quick sort
+
+# [V E T O R circular] - The Best
+
+Acesso:   O()	->	
+
+Busca:	  O(n)	->
+
+Tamanho:  O(1)	->
+
+Inserção: O(1)	->
+
+Remoção:  O(n)	->
+
+Partição: O()	->
+
+Duplicar: O(n)	->	Um vetor auxiliar recebe os valores do vetor principal por meio de 
+					uma iteração. 
+Ordenar:O(nlogn)->	Quick Sort
+
+
