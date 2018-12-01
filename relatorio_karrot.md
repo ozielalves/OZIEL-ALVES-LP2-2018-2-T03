@@ -22,7 +22,7 @@ Disciplina: Linguagem de Programação II, Universidade Federal do Rio Grande do
 Analisar os comportamentos **objetivo** e **funcional** da estrutura do site, assim como a **orientação** e **organização** lógicas da aplicação, coadunando por fim em uma melhor compreenção do open source disponibilizado.
 
 ## Resumo
-A plataforma conta com 3 repositórios, sendo estes referentes a: o código [front-end](https://github.com/yunity/karrot-frontend/), onde também está detalhada a localização central e planejamento de recursos; o código [back-end](https://github.com/yunity/karrot-backend), para lidar com as aplicações com o servidor; e o último para tratar do [blog da iniciativa](https://github.com/yunity/karrot-blog). É importante perceber que *****************
+A plataforma conta com 3 repositórios, sendo estes referentes a: o código [front-end](https://github.com/yunity/karrot-frontend/), onde também está detalhada a localização central e planejamento de recursos; o código [back-end](https://github.com/yunity/karrot-backend), para lidar com as aplicações com o servidor; e o último para tratar do [blog da iniciativa](https://github.com/yunity/karrot-blog).
 
 ## Caracterização da Empresa
 A *Karrot* é uma aplicação web que visa a organização de grupos de aproveitamento de comida no mundo todo. A iniciativa ataca diretamente o segundo objetivo de desenvolvimento sustentável da [ONU](https://nacoesunidas.org/conheca-os-novos-17-objetivos-de-desenvolvimento-sustentavel-da-onu/) porque têm como visão não só a diminuição do disperdício como também o favorecimento de indivíduos com o aproveitamento, o que aponta significativamente a importância do projeto e destaca sua necessidade de contribuição.
